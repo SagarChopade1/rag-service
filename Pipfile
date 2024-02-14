@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain-community = "*"
+tiktoken = "*"
+langchain-openai = "*"
+langchainhub = "*"
+chromadb = "==0.3.29"
+langchain = "*"
+chroma = "*"
+pysqlite3-binary = "*"
+pymupdf = "*"
+
+[dev-packages]
+ipdb = "*"
+
+[requires]
+python_version = "3.8"
